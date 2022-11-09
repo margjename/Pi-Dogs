@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+
+.cardsHome {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  background-color: pink;
+  border-radius: 30px;
+}
+
+.seccion {
+  flex-direction: row;
+}
+
+.card-body {
+  background-color: lavenderblush;
+  border-radius: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  width: 250px;
+  height: 400px;
+  margin: 5px;
+}
+
+.card-title {
+  color: darkblue;
+  font-family: "Reem Kufi Ink", sans-serif;
+  /* padding-left: 25px;
+  padding-bottom: 3px; */
+  text-align: center;
+  margin: auto auto;
+  font-size: 20px;
+  text-shadow: 0px 0px 9px rgb(194, 140, 223);
+}
+
+.card-text {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  text-align: center;
+  margin: auto auto;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.titulos {
+  /* font-family: "Reem Kufi Ink", sans-serif; */
+  font-family: "Aref Ruqaa Ink", serif;
+  color: blueviolet;
+  background-color: lavenderblush;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 8px 5px 5px violet;
+}
+
+/* .detailDog {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  width: 250px;
+  height: 400px;
+  margin: 5px;
+} */
+
+.imgenDetalle {
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 75px;
+}
+
+.cardDetail {
+  background-color: lavenderblush;
+  margin: auto;
+  border-radius: 20px;
+  border: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+}
+
+.paginado {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  background-color: pink;
+  border-radius: 50px;
+}
+
+.listaPaginado {
+  background-color: lavenderblush;
+  border-radius: 60px;
+  color: pink;
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  background-color: lavenderblush;
+  border-radius: 50px;
+}
+
+.select {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  text-align: center;
+  margin: auto auto;
+  font-size: 12px;
+}
+
+.botonBuscador {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  background-color: pink;
+  text-align: center;
+  margin: auto auto;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 2;
+  background-color: lavenderblush;
+  border-radius: 30px;
+}
+
+.error {
+  color: red;
+}
+
+.label {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  text-align: left;
+  margin: auto auto;
+  font-size: 12px;
+}
+
+.botonVolver {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  background-color: pink;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.botonCreateDog {
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: darkblue;
+  background-color: pink;
+  text-align: center;
+  margin: auto auto;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.botonCreateDog:hover {
+  background-color: mediumorchid;
+}
+
+.botonBuscador:hover {
+  background-color: mediumorchid;
+}
+
+.searchInput {
+  border-radius: 10px;
+  height: 30px;
+}
+
+.listaPaginado:hover {
+  background-color: mediumorchid;
+}
+
+.card-body:hover {
+  background-color: mediumorchid;
+}
+
+.botonCreateDog:holder {
+  background-color: mediumorchid;
+}
+
+a {
+  text-decoration: none;
+}
